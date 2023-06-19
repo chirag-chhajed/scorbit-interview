@@ -4,7 +4,7 @@ const Stars = () => {
   return (
     <p className="flex items-center gap-2">
         <span className='font-bold'>5.0</span>
-      <div className='flex'>
+      <span className='flex'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -65,7 +65,7 @@ const Stars = () => {
             clipRule="evenodd"
           />
         </svg>
-      </div>
+      </span>
     </p>
   );
 }

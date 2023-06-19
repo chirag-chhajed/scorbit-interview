@@ -1,9 +1,9 @@
 import ProductCard from "@/components/ProductCard"
 
 export default function Home({data}) {
-  console.log(data)
+  // console.log(data)
   return (
-    <main className="flex flex-col items-center justify-center max-w-screen-lg min-h-screen gap-8 p-8 mx-auto bg-gray-300">
+    <main className="flex flex-col items-center justify-center max-w-screen-lg min-h-screen gap-8 p-8 mx-auto bg-white">
       {data.map(data => <ProductCard key={data.id} title={data.title} desscription={data.body}/>)}
       {/* <ProductCard/> */}
     </main>
